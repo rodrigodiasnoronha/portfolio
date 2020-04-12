@@ -1,0 +1,14 @@
+{
+    "compileOnSave": true,
+    "include": ["src"],
+    "exclude": ["node_modules"],
+    "compilerOptions": {
+        "allowJs": true,
+        "baseUrl": "src",
+        "strictNullChecks": false,
+        "alwaysStrict": true,
+        "jsx": "react",
+        "skipDefaultLibCheck": true,
+        "esModuleInterop": true
+    }
+}
