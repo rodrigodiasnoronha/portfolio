@@ -8,4 +8,7 @@
   Gatsby's Project
 </h1>
 
-Rodrigo's Portfolio created with Gatsby and ReactJS.
+- :alien: Rodrigo's Portfolio created with Gatsby and ReactJS.
+
+- :sparkles: Stylized with Styled Components
+
