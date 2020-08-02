@@ -44,7 +44,7 @@ const App: React.FC = () => (
                         If you want to know more about me, you can to take a
                         look in my personal projects on{' '}
                         <a
-                            href="https://github.com/roketman09"
+                            href="https://github.com/rodrigodiasnoronha"
                             target="__blank"
                         >
                             <span className="gray">Github</span>{' '}

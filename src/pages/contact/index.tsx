@@ -38,7 +38,7 @@ const Contact: React.FC = () => (
                     <li>
                         <a
                             target="__blank"
-                            href="https://github.com/roketman09"
+                            href="https://github.com/rodrigodiasnoronha"
                         >
                             <FiGithub size={20} />
                             Github
@@ -48,10 +48,10 @@ const Contact: React.FC = () => (
                     <li>
                         <a
                             target="__blank"
-                            href="https://linkedin.com/users/rodrig0128"
+                            href="https://www.linkedin.com/in/rodrigo-dias-noronha-4774ab112/"
                         >
                             <FiLinkedin size={20} />
-                            Linkedin (unavailable)
+                            Linkedin
                         </a>
                     </li>
                 </ul>
