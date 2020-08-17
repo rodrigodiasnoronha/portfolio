@@ -14,21 +14,21 @@ const Header: React.FC = () => (
                 <li>
                     <Link activeClassName="activePage" to="/">
                         <AboutIcon size={30} />
-                        <span>About</span>
+                        <span>Sobre</span>
                     </Link>
                 </li>
 
                 <li>
                     <Link activeClassName="activePage" to="/contact">
                         <ContactIcon size={30} />
-                        <span>Contact</span>
+                        <span>Contato</span>
                     </Link>
                 </li>
 
                 <li>
                     <Link activeClassName="activePage" to="/resume">
                         <ResumeIcon size={30} />
-                        <span>Resume</span>
+                        <span>Resumo</span>
                     </Link>
                 </li>
             </ul>

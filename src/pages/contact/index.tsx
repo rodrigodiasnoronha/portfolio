@@ -15,7 +15,7 @@ const Contact: React.FC = () => (
         <Helmet />
         <Layout>
             <ContactWrapper>
-                <h2 className="title">I am always happy to hear from you.</h2>
+                <h2 className="title">Sempre disposto a ouvir as pessoas!</h2>
 
                 <div className="email">
                     <a href="mailto:rodrigonoronha09@gmail.com">
@@ -51,7 +51,7 @@ const Contact: React.FC = () => (
                             href="https://www.linkedin.com/in/rodrigo-dias-noronha-4774ab112/"
                         >
                             <FiLinkedin size={20} />
-                            Linkedin
+                            LinkedIn
                         </a>
                     </li>
                 </ul>

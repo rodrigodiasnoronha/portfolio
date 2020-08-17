@@ -21,35 +21,36 @@ const App: React.FC = () => (
 
                 <div className="infoWrapper">
                     <h2>
-                        <span className="orange">Hi there!</span> Nice to meet
-                        you!
+                        <span className="orange">Olá!</span> Prazer!
                     </h2>
 
                     <p>
-                        My name's{' '}
-                        <span className="green">Rodrigo Dias Noronha</span>. I'm
-                        creative and ambitious developer passionate about
-                        technologies. Always learning and always happy to hear
-                        people.
+                        Me chamo{' '}
+                        <span className="green">Rodrigo Dias Noronha</span>. Sou
+                        um criativo e ambioso{' '}
+                        <span className="gray">desenvolvedor </span>
+                        apaixonado por tecnologias. Estou sempre aprendendo!
                     </p>
                     <p>
-                        I have always focused on the latest technologies on the
-                        market like <span className="blue">React</span>,{' '}
-                        <span className="purple">React Native</span> and{' '}
-                        <span className="nodeGreen">Node.js</span>. And I love
-                        it!
+                        Mantenho foco nas principais e recentes tecnologias do
+                        mercado, como <span className="blue">React</span>,{' '}
+                        <span className="purple">React Native</span> e{' '}
+                        <span className="nodeGreen">Node.js</span>. Amo
+                        trabalhar com essas tecnologias e com tudo que envolva
+                        <span className="yellow"> Javascript</span>!
                     </p>
 
                     <p>
-                        If you want to know more about me, you can to take a
-                        look in my personal projects on{' '}
+                        Se quiser saber mais sobre mim, pode dar uma olhada no
+                        meu{' '}
                         <a
                             href="https://github.com/rodrigodiasnoronha"
                             target="__blank"
                         >
                             <span className="gray">Github</span>{' '}
                         </a>
-                        or my <Link to="/resume">resume</Link>.
+                        ou ler detalhes a mais no meu{' '}
+                        <Link to="/resume">resumo</Link>!
                     </p>
                 </div>
             </AboutWrapper>

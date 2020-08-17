@@ -1,3 +1,5 @@
+const myGithub = `https://github.com/rodrigodiasnoronha`;
+
 interface Project {
     id: number;
     title: string;
@@ -8,9 +10,17 @@ interface Project {
 
 export const personalProjects: Project[] = [
     {
-        id: 1,
+        id: 7,
+        title: 'Projeto Engajamento',
+        linkProject: '',
+        description:
+            'Projeto em desenvolvimento para a instituição Sara Nossa Terra. Seu objetivo é o Gerenciamento de eventos dentro da instituição, tais como cultos, horários dos cultos, lista de participantes dos cultos e pessoas ajudadas pelos membros da instituição. Em desenvolvimento pela equipe de desenvolvedores da Sara Nossa Terra.',
+        link: 'https://github.com/sara-nossa-terra/engajamento',
+    },
+    {
+        id: 1232311,
         title: ' Be The Hero',
-        link: 'https://github.com/rodrigodiasnoronha/be-the-hero',
+        link: `${myGithub}/be-the-hero`,
         linkProject: '',
         description:
             "Aplicação Web e Mobile produzida na semana OmniStack 11 - dia 23/03/2020 até 30/03/2020. O Objetivo deste projeto é propor uma solução para a arredação de fundos em ONG's independentes. Cada ONG pode solicitar items de suas necessidades e cadastrar pontos de coleta.",
@@ -18,8 +28,8 @@ export const personalProjects: Project[] = [
     {
         id: 2,
         title: 'Defensor do Saints',
-        linkProject: 'https://defensor-saints.web.app/',
-        link: 'https://github.com/rodrigodiasnoronha/saints',
+        linkProject: 'https://defensor-saints.web.app',
+        link: `${myGithub}/saints`,
         description:
             'Site do Defensor do Saints. Site de notícias sobre o time de futebol americano New Orleans Saints',
     },
@@ -27,7 +37,7 @@ export const personalProjects: Project[] = [
         id: 3,
         title: 'Instaclone',
         linkProject: '',
-        link: 'https://github.com/roketman09/instaclone',
+        link: `${myGithub}/instaclone`,
         description:
             'Application built with React Native. Just a clone of the Instagram app interface.',
     },
@@ -35,23 +45,23 @@ export const personalProjects: Project[] = [
         id: 4,
         title: 'Tindesc',
         linkProject: '',
-        link: 'https://github.com/roketman09/tindesc',
+        link: `${myGithub}/tindesc`,
         description:
-            'Application built with Node, React and MongoDB for educational purposes. It was built with the purpose of introducing students who are entering higher education to enter the IT course. It is just a web application that simulates Tinder, where you can find students registered at UNIDESC (my college).',
+            'Aplicação Web construida com Node, React e MongoDB. Seu propósito foi demonstrar a construção de uma mini rede social dos alunos da faculdade Unidesc. Alunos da faculdade pode se registrar e encontrarem parceiros em comuns e curtir pessoas do colégio que acham interresante.',
     },
     {
         id: 5,
-        title: 'My Calculator',
+        title: 'Calculadora feita com React Native',
         linkProject: '',
-        link: 'https://github.com/roketman09/react-native-calculator',
-        description: 'Calculator built with React Native.',
+        link: `${myGithub}/react-native-calculator`,
+        description: 'Calculadora construida com React Native.',
     },
     {
         id: 6,
         title: 'DevRadar',
         linkProject: '',
-        link: 'https://github.com/roketman09/omnistack-week-10',
         description:
-            'Application built with Node, React and React Native in the week Omnistack 10, by Rocketseat. This application has the purpose of identifying software developers close to you. You can register and see if there is a developer near you',
+            'Aplicação construida com Node, React e React Native durante a Semana OmniStack 10. Esta é uma aplicação voltada para desenvolvedores de software. Onde você pode encontrar desenvolvedores de acordo com a sua localização e ver seus perfis do Github.',
+        link: `${myGithub}/omnistack-week-10`,
     },
 ];

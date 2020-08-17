@@ -61,6 +61,7 @@ export const ContactWrapper = styled.div`
         font-size: 24px;
         color: ${colors.lucyTheme.call};
         border-bottom: 1px solid transparent;
+        text-decoration: none;
     }
 
     ul.social-media li a svg {

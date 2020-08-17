@@ -14,6 +14,10 @@ export const ResumeWrapper = styled.div`
         color: ${colors.lucyTheme.accent2};
     }
 
+    .experience p {
+    }
+
+
     h3 {
         color: ${colors.lucyTheme.accent1};
         font-size: 42px;

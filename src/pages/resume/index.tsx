@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../../components/layout';
 import { ResumeWrapper } from './_styles';
-import { FiAward, FiHome } from 'react-icons/fi';
+import { FiAward, FiHome, FiAirplay } from 'react-icons/fi';
 import Helmet from '../../components/helmet';
 import { personalProjects } from './_data';
 
@@ -11,16 +11,31 @@ const Resume: React.FC = () => (
         <Layout>
             <ResumeWrapper>
                 <h2 className="title">Rodrigo Dias Noronha</h2>
-                <h3>Experience</h3>
+                <h3>Experiência</h3>
                 <section>
-                    <p>
-                        I've been working for the past few months as a freelance
-                        developer.
-                    </p>
+                    <ul className="experience">
+                        <li>
+                            <p>
+
+                                <FiAirplay color="#76c5a4" size={30} />
+                                Estive trabalhando como Desenvolvedore
+                                FreeLancer pelos meses passados. Desde Janeiro
+                                de 2020.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <FiAirplay color="#76c5a4" size={30} />
+                                Também estive desenvolvendo software em conjunto
+                                com a equipe de Desenvolvedores da Sara Nossa
+                                Terra. Com foco no FrontEnd.
+                            </p>
+                        </li>
+                    </ul>
                 </section>
 
                 <section>
-                    <h3>Education and Courses</h3>
+                    <h3>Cursos e Educação</h3>
 
                     <ul>
                         <li>
@@ -90,15 +105,20 @@ const Resume: React.FC = () => (
                                 Rocketseat: Semana Omnistack 11
                             </p>
                         </li>
+                        <li>
+                            <p>
+                                <FiAward size={25} color="#76c5a4" />
+                                Rocketseat: Next Level Week 1
+                            </p>
+                        </li>
                     </ul>
                 </section>
 
                 <section>
-                    <h3>Personal Projects </h3>
+                    <h3>Projetos </h3>
                     <p>
-                        These are some of my personal projects. If you want to
-                        know more information and see screenshots of the
-                        application, just click on the link.
+                        Esses são alguns de meus projetos, em sua maioria
+                        projetos pessoais.
                     </p>
 
                     <ul>
