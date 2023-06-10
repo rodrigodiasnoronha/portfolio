@@ -15,7 +15,7 @@
     "publish": "gh-pages -d public"
   },
   "dependencies": {
-    "gatsby": "^2.24.11",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-manifest": "^2.4.21",
     "gatsby-plugin-offline": "^3.2.21",
     "gatsby-plugin-react-helmet": "^3.3.10",
